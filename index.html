@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        .top{
+            width: 100%;
+            background-color: #f8f9fe;
+            height: 200px;
+        }
+        .cont{
+            width: 960px;
+            margin: auto;
+        }
+        .cont div{
+            width: 300px;
+            height: 100px;
+            float: left;
+            background-color: #f1c317;
+            margin-top: 40px;
+            margin-right: 20px ;
+            border-radius: 15px;
+        }
+        p + p{
+            color: white;
+            font-size: 14px;
+            margin: -30px; 
+            padding-left: 130px;    
+        }
+        p{
+            color: white;
+            font-size: 20px;
+            padding-left: 100px;
+            padding-top: 10px;
+        }
+        .container > h1{
+            font-size: 40px;
+            width: 350px;
+        }
+        .container{
+            width: 300px;
+            margin: auto;
+        }
+        .section{
+            width: 450px;
+            margin: auto;
+        }
+        .section button{
+            font-size: 15px;
+            color: black;
+            background-color: #f8f9fe;
+            float: left;
+            text-align: center;
+            padding: 10px;
+        }
+        .placeholder{
+            width: 50px;
+            height: 30px;
+            margin: 10% 10px;
+        }
+        .bhover:hover{
+            background-color: #00c4dc;
+            color: white;
+        }
+        .container2 {
+            padding: 16px;
+        }
+        img {
+            border-radius: 5px;
+        }
+        .card {
+            box-shadow: 0 4px 4px 0 rgba(0,0,0,0.2);
+            width: 20%;
+            border-radius: 5px;
+            float: left;
+            margin: 10px;
+        }
+        #card1{
+            width: 80%;
+            margin-left: 350px;
+        }
+        .cardB{
+            color:  #00c4dc;
+            border: 1px solid #00c4dc;
+            padding: 10px 30px;
+            background-color: white;
+        }
+        @media screen and (max-width:500px){
+            #card1{
+                display: grid;
+                grid-template-rows: 100px 100px 100px;
+                grid-template-areas: "a"
+                "b"
+                "c";
+                width: 50%;
+                margin-left: 200px;
+                height: 200px;
+            }
+            .container2 {
+            padding: 10px;
+            }
+            .container2 > h4{
+            font-size: 10px;
+            }
+        .cardB{
+            color:  #00c4dc;
+            border: 1px solid #00c4dc;
+            padding: 1px 3px;
+            background-color: white;
+        }
+        .card {
+            box-shadow: 0 4px 4px 0 rgba(0,0,0,0.2);
+            width: 20%;
+            border-radius: 5px;
+            float: left;
+            margin: 10px;
+        }
+        .top{
+            width: 100%;
+            background-color: #f8f9fe;
+            height: 200px;
+        }
+        .cont{
+            width: 400px;
+            margin: auto;
+        }
+        .cont div{
+            width: 200px;
+            height: 100px;
+            float: left;
+            background-color: #f1c317;
+            margin-top: 40px;
+            margin-right: 20px ;
+            border-radius: 15px;
+        }
+        p + p{
+            color: white;
+            font-size: 4px;
+            margin: -30px; 
+            padding-left: 130px;    
+        }
+        p{
+            color: white;
+            font-size: 5px;
+            padding-left: 100px;
+            padding-top: 10px;
+        }
+        .container > h1{
+            font-size: 40px;
+            width: 100px;
+        }
+        .container{
+            width: 200px;
+            margin: auto;
+        }
+        .section{
+            width: 150px;
+            margin: auto;
+        }
+        .section button{
+            font-size: 15px;
+            color: black;
+            background-color: #f8f9fe;
+            float: left;
+            text-align: center;
+            padding: 10px;
+        }
+            .f{
+                grid-area: a;
+            }
+            .s{
+                grid-area: b;
+            }
+            .t{
+                grid-area: c;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <body>
+        <div class="top">
+            <div class="cont">
+                <div>
+                    <!-- <img class="placeholder" src="https://via.placeholder.com/150/0000FF/FFFFFF/?text=Digital.com"> -->
+                    <p>Scholarship</p>
+                    <p>Available</p>
+                </div>
+                <div style="background-color: #355ed8;">
+                    <!-- <img class="placeholder" src="https://via.placeholder.com/150/0000FF/FFFFFF/?text=Digital.com"> -->
+                    <p>Scholarship</p>
+                    <p>Available</p>
+                </div>
+                <div style="background-color: #00c4dc;">
+                    <!-- <img class="placeholder" src="https://via.placeholder.com/150/0000FF/FFFFFF/?text=Digital.com"> -->
+                    <p>Scholarship</p>
+                    <p>Available</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <h1>Popular Program</h1>
+        </div>
+
+        <div style="clear: both;"></div>
+
+    <div class="section">  
+        <button class="bhover">Graduate</button>
+        <button class="bhover">Postgraduate</button>
+        <button class="bhover">PHDScholarships</button>
+        <button class="bhover">Training</button>
+    </div>
+
+    <div style="clear: both;"></div>
+
+    <div id="card1">
+        <div class="card" class = "f">
+            <img src="https://www.masaischool.com/static/campus/location_1/91springboard_min_1.jpg" alt="" style="width:100%">
+            <div class="container2">
+            <h4><b>Agriculture</b></h4>
+            <h4><b>Mechanical Engineering</b></h4>
+            <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, harum?</h4>
+            <button class = "cardB">Apply Now</button>
+            </div>
+        </div>
+
+        <div class="card" class = "s">
+            <img src="https://www.masaischool.com/static/campus/location_1/91springboard_min_1.jpg" alt="" style="width:100%">
+            <div class="container2">
+            <h4><b>Agriculture</b></h4>
+            <h4><b>Mechanical Engineering</b></h4>
+            <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, harum?</h4>
+            <button class = "cardB">Apply Now</button>
+            </div>
+        </div>
+        
+        <div class="card" class = "t">
+            <img src="https://www.masaischool.com/static/campus/location_1/91springboard_min_1.jpg" alt="" style="width:100%">
+            <div class="container2">
+            <h4><b>Agriculture</b></h4>
+            <h4><b>Mechanical Engineering</b></h4>
+            <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, harum?</h4>
+            <button class = "cardB">Apply Now</button>
+            </div>
+        </div>
+    </div>  
+    
+</body>
+</html>
